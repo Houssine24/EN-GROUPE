@@ -10,7 +10,6 @@
 
 
 
-
 console.log("salut");
 var nom = "Dupont";
 var prénom = "David";
@@ -18,7 +17,6 @@ var ville = "Auch";
 
     var saisie = prompt();
     alert("Boujour\n" + "nom: " + saisie); 
-
 
 
 
@@ -36,26 +34,44 @@ var nb2 = (4);
 alert(result); 
  
 
-*/
-
 
 function myFunction1()
 {
-	var num1 = prompt ("Entrez votre Premier nombre à virgule ");
-	var num2 = prompt ("Entrez votre Deuxième ");
-	var result = parsint (num1);
-	var ss =     = num2;
-	alert()
+    var num1 = prompt ("Entrez votre Premier nombre à virgule ");
+    var num2 = prompt ("Entrez votre Deuxième ");
+    var result = parsint (num1);
+    var ss =     = num2;
+    alert()
 }       // INCOMPLET
 
 function myFunction2()
 {
 
 }
-
-
+\n
 var result = prompt ("donne ta pointure...") * 2 + 5 * 50 - prompt ("donne...") + 1766;
   alert(result);
+*/
+
+var mois = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 
+                     'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+        alert(mois [2]);
+        alert(mois [5]);
+        alert(mois [10]);
+
+mois[7] = 'Août';
+       alert(mois[7]);
+       alert(mois);
+
+
+          
+
+        
+
+
+
+
+
 
 
 

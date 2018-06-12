@@ -36,7 +36,7 @@ var nb2 = (4);
 alert(result); 
  
 
-
+*/
 
 
 function myFunction1()
@@ -59,23 +59,9 @@ var result = prompt ("donne ta pointure...") * 2 + 5 * 50 - prompt ("donne...") 
 
 
 
-var pointure = prompt("pointure ?");
-var naissance = prompt ("naissance ?");
-var result = calculer ( pointure, naissance );
-    alert("mon résultat est: " + result + " !");
-function calculer( p, n )
-{
-   var r = ( p * 2 + 5 ) * 50 - n + 1766;
-   return r;
-}
 
 
-function calculer( p, n )
-{
-   var r = ( parsint(p) * 2 + 5 ) * 50 - parsint(n) + 1766;
-   return r;
-}
-*/
+
 
 
 
